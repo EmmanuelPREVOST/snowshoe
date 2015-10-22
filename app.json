@@ -17,7 +17,7 @@
     "SNOWSHOE_APP_PROTOCOL": "https"
   },
   "scripts": {
-    "postdeploy": "gulp reactify"
+    "postdeploy": "./node_modules/.bin/gulp reactify"
   },
   "buildpacks" : [
     {
